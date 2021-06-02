@@ -1,3 +1,13 @@
+This Project was created for a test for a job application for Fetch Rewards. It includes a list of data, provided and:
+
+Display this list of items to the user based on the following requirements:
+
+    Display all the items grouped by "listId"
+    Sort the results first by "listId" then by "name" when displaying.
+    Filter out any items where "name" is blank or null.
+
+The final result should be displayed to the user in an easy-to-read list.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
