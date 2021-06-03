@@ -1,23 +1,18 @@
-import React, {Component} from 'react'
-import data from './data'
+import React, { Component } from 'react';
 import './App.css';
 
-class App extends Component{
-  constructor(){
-    super()
+class App extends Component {
+  constructor(props) {
+    super(props);
     this.state = {
-      data: []
-    }
+      
+      list: []
+    };
   }
-
-
-  render () {
-  return (
-    <div className="App">
-      <h1>Hello</h1>
-      <GroupBy list ={this.groupData}/>
-    </div>
-    )
+render(){
+  return(
+    <div>hello</div>
+  )
   }
 }
 
